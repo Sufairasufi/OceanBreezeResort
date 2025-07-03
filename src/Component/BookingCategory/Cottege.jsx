@@ -1,10 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import cottege1 from '../../Image/cottege1.jpg';
-import cottege2 from '../../Image/cottege2.jpg';
-import cottege4 from '../../Image/cottege4.jpg';
-import cottege5 from '../../Image/cottege5.jpg';
-import cottege6 from '../../Image/cottege6.jpg';
-import cottege7 from '../../Image/cottege7.jpg';
 import './BookingCategory.css';
 
 const Cottege = () => {
@@ -56,12 +50,12 @@ const Cottege = () => {
     <section className='booking-section'>
       <h2 className='booking-title'>Private Cottege</h2>
       <div className='booking-grid'>
-        <img src={cottege1} alt='cottege room 1' className='book-images' />
-        <img src={cottege2} alt='cottege room 2' className='book-images' />
-        <img src={cottege4} alt='cottege room 3' className='book-images' />
-        <img src={cottege5} alt='cottege room 4' className='book-images' />
-        <img src={cottege6} alt='cottege room 5' className='book-images' />
-        <img src={cottege7} alt='cottege room 6' className='book-images' />
+        <img src='Images/cottege1.jpg' alt='cottege room 1' className='book-images' />
+        <img src='Images/cottege2.jpg' alt='cottege room 2' className='book-images' />
+        <img src='Images/cottege4.jpg' alt='cottege room 3' className='book-images' />
+        <img src='Images/cottege5.jpg' alt='cottege room 4' className='book-images' />
+        <img src='Images/cottege6.jpg' alt='cottege room 5' className='book-images' />
+        <img src='Images/cottege7.jpg' alt='cottege room 6' className='book-images' />
       </div>
 
       <div>

@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import logo from '../../Image/logo.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
          
         <div className='navbar'>
         <div className='navbar-logo'>
-          <img src={logo}alt="image"></img>
+          <img src='Image/logo.png' alt="image"></img>
         </div>
         <button className="toggle-button" onClick={() => setIsOpen(!isOpen)}>
         ☰

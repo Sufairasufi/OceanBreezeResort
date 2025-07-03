@@ -1,13 +1,4 @@
-import React from 'react'
-import beachImg from '../../Image/beachimg.jpg';
-import palmImg from '../../Image/dancimg.jpg'
-import beachImg1 from '../../Image/photo1.jpg'
-import beachImg2 from '../../Image/photo2.jpg'
-import beachImg3 from '../../Image/photo3.jpg'
-import beachImg4 from '../../Image/photo 4.jpg'
-import beachImg5 from '../../Image/photo5.jpg'
-import beachImg6 from '../../Image/photo6.jpg'
-import palmImg1 from '../../Image/photo6.jpg'
+import React from 'react'  
 import './About.css'
 import Marquee from 'react-fast-marquee';
 
@@ -17,16 +8,16 @@ const About = () => {
       <div className="about-container">
         
         <div>
-          <img src={beachImg} alt="image" className='about-image' />
+          <img src='Image/beach.jpg' alt="image" className='about-image' />
         </div>
         <div>
-          <img src={beachImg1} alt="image" className='about-image' />
+          <img src='Image/photo1.jpg' alt="image" className='about-image' />
         </div>
         <div>
-          <img src={beachImg3} alt="image" className="about-image" />
+          <img src='Image/photo3.jpg' alt="image" className="about-image" />
         </div>
         <div>
-          <img src={beachImg4} alt="image" className='about-image' />
+          <img src='Image/photo 4.jpg' alt="image" className='about-image' />
         </div>
         
         <div className="about-text">
@@ -57,7 +48,7 @@ const About = () => {
             <li>🚲 Bike & scooter rentals available</li>
           </ul>
           <div>
-             <img src={beachImg6} alt="image" className='about-image' />
+             <img src='Image/photo6.jpg' alt="image" className='about-image' />
             </div>
           </div>
           <h3>Our Mission</h3>
@@ -71,16 +62,16 @@ const About = () => {
           </div>
         </div>
         <div>
-          <img src={palmImg} alt="image" className="about-image right" />
+          <img src='Image/dancimg.jpg' alt="image" className="about-image right" />
         </div>
         <div>
-          <img src={beachImg2} alt="image" className='about-image' />
+          <img src='Image/photo2.jpg' alt="image" className='about-image' />
         </div>
         <div>
-          <img src={palmImg1} alt="image" className="about-image" />
+          <img src='Image/photo6.jpg' alt="image" className="about-image" />
         </div>
         <div>
-          <img src={beachImg5} alt="image" className='about-image' />
+          <img src='Image/photo5.jpg' alt="image" className='about-image' />
         </div>
       </div>
     </section>

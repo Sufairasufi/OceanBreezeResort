@@ -1,10 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import fam1 from '../../Image/fam1.jpg'
-import fam2 from '../../Image/fam2.jpg'
-import fam3 from '../../Image/fam3.jpg'
-import fam4 from '../../Image/fam4.jpg'
-import fam5 from '../../Image/fam5.jpg'
-import fam6 from '../../Image/fam6.jpg'
 import './BookingCategory.css'
 
 const Family = () => {
@@ -16,7 +10,7 @@ const [showModal, setShowModal] = useState(false);
   const [storedData, setStoredData] = useState(null);
   
     useEffect(() => {
-      const data = localStorage.getItem('cottegeBooking');
+      const data = localStorage.getItem('familyBooking');
       if (data) {
         const parsedData = JSON.parse(data);
         setStoredData(parsedData);
@@ -36,7 +30,7 @@ const [showModal, setShowModal] = useState(false);
       guests,
     };
 
-    localStorage.setItem('cottegeBooking', JSON.stringify(bookingData));
+    localStorage.setItem('familyBooking', JSON.stringify(bookingData));
     setStoredData(bookingData);
 
     setError('');
@@ -51,12 +45,12 @@ const [showModal, setShowModal] = useState(false);
     <section className='booking-section'>
       <h2 className='booking-title'>Family Bedroom</h2>
       <div className='booking-grid'>
-        <img src={fam1} alt='Family room 1' className='book-images' />
-        <img src={fam2} alt='Family room 2' className='book-images' />
-        <img src={fam3} alt='Family room 3' className='book-images' />
-        <img src={fam4} alt='Family room 4' className='book-images' />
-        <img src={fam5} alt='Family room 5' className='book-images' />
-        <img src={fam6} alt='Family room 6' className='book-images' />
+        <img src='Image/fam1.jpg' alt='Family room 1' className='book-images' />
+        <img src='Image/fam2.jpg' alt='Family room 2' className='book-images' />
+        <img src='Image/fam3.jpg' alt='Family room 3' className='book-images' />
+        <img src='Image/fam4.jpg' alt='Family room 4' className='book-images' />
+        <img src='Image/fam5.jpg' alt='Family room 5' className='book-images' />
+        <img src='Image/fam6.jpg' alt='Family room 6' className='book-images' />
       </div>
             <div>
         <button className="book-btn" onClick={() => setShowModal(true)}>Book Now</button>

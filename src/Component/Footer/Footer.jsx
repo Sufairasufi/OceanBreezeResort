@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../../Image/logo.png'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
@@ -8,7 +7,7 @@ const Footer = () => {
     <footer className='footer'>
       <div className='footer-top'>
         <div className='footer-logo'>
-          <img src={logo} alt='Ocean Breeze Logo' />
+          <img src='Image/logo.png' alt='Ocean Breeze Logo' />
         </div>
 
           <ul className='footer-link'>

@@ -1,10 +1,8 @@
 import React from 'react'
-import video from '../../Video/vid1.mp4';
 import './Home.css'
 import HomeNavbar from './HomeNavbar';
 import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
-import restimg from '../../Image/pic1.png'
 
 const Home = () => {
   return (
@@ -17,7 +15,7 @@ const Home = () => {
           <Link to='/booking'><button className="search-button">Find Your Stay</button></Link>
         </div>
         <video autoPlay muted >
-          <source src={video} type='video/mp4'></source>
+          <source src='Video/vid1.mp4' type='video/mp4'></source>
         </video>
 
       </div>
@@ -28,7 +26,7 @@ const Home = () => {
             and breathtaking views. Book now for a memorable holiday!</p>
         </div>
         <div>
-          <img src={restimg} alt="Resort" className="animated-image"></img>
+          <img src='Image/pic1.png' alt="Resort" className="animated-image"></img>
 
         </div>
       </div>

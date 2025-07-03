@@ -1,10 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import luxury1 from '../../Image/luxury1.jpg'
-import luxury2 from '../../Image/luxury2.jpg'
-import luxury3 from '../../Image/luxury3.jpg'
-import luxury4 from '../../Image/luxury4.jpg'
-import luxury5 from '../../Image/luxury5.jpg'
-import luxury6 from '../../Image/luxury6.jpg'
 import './BookingCategory.css'
 
 
@@ -17,7 +11,7 @@ const Luxury = () => {
     const [storedData, setStoredData] = useState(null);
     
     useEffect(() => {
-      const data = localStorage.getItem('cottegeBooking');
+      const data = localStorage.getItem('luxuryBooking');
       if (data) {
         const parsedData = JSON.parse(data);
         setStoredData(parsedData);
@@ -36,7 +30,7 @@ const Luxury = () => {
       guests,
     };
 
-    localStorage.setItem('cottegeBooking', JSON.stringify(bookingData));
+    localStorage.setItem('luxuryBooking', JSON.stringify(bookingData));
     setStoredData(bookingData);
 
 
@@ -53,12 +47,12 @@ const Luxury = () => {
     <section className='booking-section'>
       <h2 className='booking-title'>Luxury Bedroom</h2>
       <div className='booking-grid'>
-        <img src={luxury1} alt='luxury room 1' className='book-images' />
-        <img src={luxury2} alt='luxury room 2' className='book-images' />
-        <img src={luxury3} alt='luxury room 3' className='book-images' />
-        <img src={luxury4} alt='luxury room 4' className='book-images' />
-        <img src={luxury5} alt='luxury room 5' className='book-images' />
-        <img src={luxury6} alt='luxury room 6' className='book-images' />
+        <img src='Image/luxury1.jpg' alt='luxury room 1' className='book-images' />
+        <img src='Image/luxury2.jpg' alt='luxury room 2' className='book-images' />
+        <img src='Image/luxury3.jpg' alt='luxury room 3' className='book-images' />
+        <img src='Image/luxury4.jpg' alt='luxury room 4' className='book-images' />
+        <img src='Image/luxury5.jpg' alt='luxury room 5' className='book-images' />
+        <img src='Image/luxury6.jpg' alt='luxury room 6' className='book-images' />
       </div>
       <div>
         <button className="book-btn" onClick={() => setShowModal(true)}>Book Now</button>
