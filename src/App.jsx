@@ -14,7 +14,7 @@ import Gallery from './Component/Gallery/Gallery'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Resort-Booking">
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route element={<Layout/>}>

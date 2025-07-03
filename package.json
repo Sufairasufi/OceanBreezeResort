@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sufairasufi.github.io/OceanBreezeResortBooking",
+  "homepage": "https://sufairasufi.github.io/Resort-Booking",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
