@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-container">
         
         <div>
-          <img src='Image/beach.jpg' alt="image" className='about-image' />
+          <img src='Image/beachimg.jpg' alt="image" className='about-image' />
         </div>
         <div>
           <img src='Image/photo1.jpg' alt="image" className='about-image' />

@@ -16,9 +16,10 @@ function App() {
   return (
     <HashRouter>
       <Routes>
+        
+        <Route element={<Layout/>}/>
         <Route path='/' element={<Home/>}/>
-        <Route element={<Layout/>}>
-        <Route path='about' element={<About/>}/>
+        <Route path='about' element={<About/>}>
         <Route path='contact' element={<Contact/>}/>
         <Route path='service' element={<Service/>}/>
         <Route path='booking' element={<Booking/>}/>
