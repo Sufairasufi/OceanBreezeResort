@@ -1,6 +1,7 @@
 import React from 'react'  
 import './About.css'
 import Marquee from 'react-fast-marquee';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -58,7 +59,7 @@ const About = () => {
           </p>
           <div className="about-cta">
             <p>Ready to experience the magic of Goa?</p><br/>
-            <a href="/contact" className="about-btn">Book Your Stay</a>
+            <Link to="/contact" className="about-btn">Book Your Stay</Link>
           </div>
         </div>
         <div>
