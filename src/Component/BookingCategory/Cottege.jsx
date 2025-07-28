@@ -50,12 +50,12 @@ const Cottege = () => {
     <section className='booking-section'>
       <h2 className='booking-title'>Private Cottege</h2>
       <div className='booking-grid'>
-        <img src='Images/cottege1.jpg' alt='cottege room 1' className='book-images' />
-        <img src='Images/cottege2.jpg' alt='cottege room 2' className='book-images' />
-        <img src='Images/cottege4.jpg' alt='cottege room 3' className='book-images' />
-        <img src='Images/cottege5.jpg' alt='cottege room 4' className='book-images' />
-        <img src='Images/cottege6.jpg' alt='cottege room 5' className='book-images' />
-        <img src='Images/cottege7.jpg' alt='cottege room 6' className='book-images' />
+        <img src='Image/cottege1.jpg' alt='cottege room 1' className='book-images' />
+        <img src='Image/cottege2.jpg' alt='cottege room 2' className='book-images' />
+        <img src='Image/cottege4.jpg' alt='cottege room 3' className='book-images' />
+        <img src='Image/cottege5.jpg' alt='cottege room 4' className='book-images' />
+        <img src='Image/cottege6.jpg' alt='cottege room 5' className='book-images' />
+        <img src='Image/cottege7.jpg' alt='cottege room 6' className='book-images' />
       </div>
 
       <div>

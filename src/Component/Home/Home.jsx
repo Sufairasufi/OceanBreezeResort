@@ -14,7 +14,7 @@ const Home = () => {
           <p>Book Your Perfect Gateway Now</p>
           <Link to='/booking'><button className="search-button">Find Your Stay</button></Link>
         </div>
-        <video autoPlay muted >
+        <video autoPlay muted loop>
           <source src='Video/vid1.mp4' type='video/mp4'></source>
         </video>
 
